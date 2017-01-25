@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>lidar_servo</name>
+  <version>1.0.0</version>
+  <description>TBD</description>
+
+  <author email="github@cocasema.com">cocasema</author>
+  <maintainer email="github@cocasema.com">cocasema</maintainer>
+  <license>MIT</license>
+
+  <url type="lidar-lite">https://github.com/cocasema/lidar-lite</url>
+  <url type="pca9685">https://github.com/cocasema/ros-pca9685</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>lidar_lite</depend>
+  <depend>pca9685</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+</package>

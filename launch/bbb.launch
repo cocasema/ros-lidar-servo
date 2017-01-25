@@ -1,0 +1,16 @@
+<launch>
+  <node name="lidar_servo" pkg="lidar_servo" type="lidar_servo_node" output="screen" >
+    <param name="frame_id" value="lidar_servo" />
+    <param name="lidar_lite/i2c_bus" value="2" />
+    <param name="lidar_lite/i2c_address" value="0x62"/>
+    <param name="pca9685/i2c_bus" value="2" />
+    <param name="pca9685/i2c_address" value="0x40"/>
+    <param name="pca9685/frequency" value="50"/>
+    <param name="pca9685/dc_min" value="130"/>
+    <param name="pca9685/dc_max" value="570"/>
+    <param name="pca9685/deg_min" value="-90"/>
+    <param name="pca9685/deg_max" value="+90"/>
+    <param name="pca9685/pin" value="0"/>
+    <param name="pca9685/delay" value="10"/>
+  </node>
+</launch>
